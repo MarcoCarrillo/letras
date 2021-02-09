@@ -26,7 +26,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
     const buscarInformacion = e =>{
         e.preventDefault();
 
-        if(artista.trim() === '' || artista.trim() === ''){
+        if(artista.trim() === '' || cancion.trim() === ''){
             guardarError(true);
             return;
         }
