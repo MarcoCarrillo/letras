@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 
 
+
 const Formulario = ({guardarBusquedaLetra}) => {
 
     const [busqueda, guardarBusqueda] = useState({
@@ -38,7 +39,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
     return ( 
         <div className="bg-info">
             { error ? 
-            <p className="alert alert-danger text-center p2">Todos los campos son obligatorios</p>
+            <p className="alert alert-danger text-center p-2">Todos los campos son obligatorios</p>
             : null}
     
             <div className="container">
